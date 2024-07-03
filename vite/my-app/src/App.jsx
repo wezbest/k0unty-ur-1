@@ -3,12 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// Adding my function 
+function MyText() {
+  return(
+    <h1>My Text Suck</h1>
+  )
+}
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
+        <MyText />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
